@@ -56,13 +56,14 @@
                     	     &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
                 };
+                
                 plover_layer {
                     label = "Plover";
                     bindings = <
-                           <<<EXTRA>>>   &kp PLV_NM  &kp PLV_TL  &kp PLV_PL  &kp PLV_HL  &kp PLV_ST         &kp PLV_FR  &kp PLV_PR  &kp PLV_LR  &kp PLV_TR  &kp PLV_DR   <<<EXTRA>>>
-                           <<<EXTRA>>>   &kp PLV_SL  &kp PLV_KL  &kp PLV_WL  &kp PLV_RL  &kp PLV_ST         &kp PLV_RR  &kp PLV_BR  &kp PLV_GR  &kp PLV_SR  &kp PLV_ZR   <<<EXTRA>>>
-                           <<<EXTRA>>>   &kp PLV_X1  &kp PLV_X2  &kp PLV_X3  &kp PLV_X4  &to 1         &kp PLV_ST  &kp PLV_X5  &kp PLV_X6  &kp PLV_X7  &kp PLV_X8   <<<EXTRA>>>
-                                                           &kp  PLV_A  &kp  PLV_O  &kp PLV_NM         &kp  PLV_NM  &kp  PLV_E  &kp  PLV_U
+                        &to 1   &kp PLV_NM  &kp PLV_TL  &kp PLV_PL  &kp PLV_HL  &kp PLV_ST         &kp PLV_ST &kp PLV_FR  &kp PLV_PR  &kp PLV_LR  &kp PLV_TR  &kp PLV_DR
+                        <<<EXTRA>>>   &kp PLV_SL  &kp PLV_KL  &kp PLV_WL  &kp PLV_RL  &kp PLV_ST         &kp PLV_ST &kp PLV_RR  &kp PLV_BR  &kp PLV_GR  &kp PLV_SR  &kp PLV_ZR
+                        <<<EXTRA>>>   &kp PLV_X1  &kp PLV_X2  &kp PLV_X3  &kp PLV_X4  &kp PLV-ST         &kp PLV_ST  &kp PLV_X5  &kp PLV_X6  &kp PLV_X7  &kp PLV_X8  &kp PLV_X89
+                                                        &kp PLV_NM   &kp PLV_A  &kp PLV_O           &kp PLV_E  &kp PLV_U &kp  PLV_NM 
 
                     >;
                 };
